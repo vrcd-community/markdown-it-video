@@ -11,11 +11,11 @@ function youtubeParser(url) {
 }
 
 /* eslint-disable max-len */
-const vimeoRegex = /(?:http:|https:|)\/\/(?:player.|www.)?vimeo\.com\/(?:video\/|embed\/|watch\?\S*v=|v\/)?(\d*)/;
+const vimeoRegex = /(?:http:|https:)?\/\/(?:www\.|player\.)?vimeo.com\/(?:channels\/(?:\w+\/)?|groups\/([^/]*)\/videos\/|album\/(\d+)\/video\/|)(\d+)/;
 /* eslint-enable max-len */
 function vimeoParser(url) {
   const match = url.match(vimeoRegex);
-  return match && typeof match[1] === 'string' ? match[1] : url;
+  return match && typeof match[3] === 'string' ? match[3] : url;
 }
 
 const vineRegex = /^http(?:s?):\/\/(?:www\.)?vine\.co\/v\/([a-zA-Z0-9]{1,13}).*/;
