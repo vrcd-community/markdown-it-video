@@ -223,6 +223,8 @@ Coverage. Vimeo from URL
 .
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item vimeo-player" type="text/html" width="500" height="281" src="https://player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
 .
+
+Coverage. Vine
 .
 @[vine](https://vine.co/v/MhQ2lvg29Un/embed)
 .
