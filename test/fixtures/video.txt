@@ -181,11 +181,6 @@ x
 .
 <p>@[(vimeo]</p>
 .
-.
-@[toc]()
-.
-<p>@<a href="">toc</a></p>
-.
 
 Coverage. Vimeo from URL
 .
@@ -315,11 +310,6 @@ x
 @[(prezi]
 .
 <p>@[(prezi]</p>
-.
-.
-@[toc]()
-.
-<p>@<a href="">toc</a></p>
 .
 
 Coverage. Prezi from URL
