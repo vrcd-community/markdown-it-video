@@ -9,16 +9,17 @@
 #### Enable plugin
 
 ```js
-var md = require('markdown-it')({
-  html: true,
-  linkify: true,
-  typography: true
-}).use(require('markdown-it-video', { // <-- this use(package_name) is required
-  youtube: { width: 640, height: 390 },
-  vimeo: { width: 500, height: 281 },
-  vine: { width: 600, height: 600, embed: 'simple' },
-  prezi: { width: 550, height: 400 }
-}));
+  var md = require('markdown-it')({
+    html: true,
+    linkify: true,
+    typography: true
+  }).use(require('markdown-it-video'), // <-- this use(package_name) is required 
+  {
+    youtube: { width: 640, height: 390 },
+    vimeo: { width: 500, height: 281 },
+    vine: { width: 600, height: 600, embed: 'simple' },
+    prezi: { width: 550, height: 400 }
+  })
 ```
 #### Inline style
 
@@ -49,6 +50,7 @@ Alternately, you could use a number of different YouTube URL formats rather than
 @[youtube](http://www.youtube.com/embed/dQw4w9WgXcQ?rel=0)
 @[youtube](http://www.youtube.com/watch?v=dQw4w9WgXcQ)
 @[youtube](http://youtu.be/dQw4w9WgXcQ)
+@[youtube](dQw4w9WgXcQ?rel=0)
 ```
 
 #### Vimeo
@@ -135,9 +137,39 @@ Alternately, you could use the url.
 @[osf](https://mfr.osf.io/render?url=https://osf.io/kuvg9/?action=download)
 ```
 
-
 ## Options
 
 ```js
 
+```
+
+### YouTube
+
+```js
+youtube: {
+  width: 640,
+  height: 390,
+  nocookie: false,
+  parameters: {}
+}
+```
+
+##### nocookie
+
+Use https://youtube-nocookie.com instead of https://youtube.com for all embeds. This enables 'Privacy Enhanced Mode' as described at the corresponding [Google help page](https://support.google.com/youtube/answer/171780)
+
+##### parameters
+
+This option allows to add/overwrite embed parameters globally.
+Pass an object with parameter/value pairs to change the design and behavior of the YouTube player.
+For a list of valid parameters please refer to the [official documentation](https://developers.google.com/youtube/player_parameters#Parameters).
+
+Example:
+*Start playback at 10 seconds and disable displaying related videos.*
+
+```js
+{
+    rel: 0,
+    start: 10
+}
 ```

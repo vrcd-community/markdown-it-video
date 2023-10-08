@@ -50,7 +50,7 @@ function videoEmbed(md, options) {
     const oldPos = state.pos;
 
     if (state.src.charCodeAt(oldPos) !== 0x40/* @ */ ||
-        state.src.charCodeAt(oldPos + 1) !== 0x5B/* [ */) {
+      state.src.charCodeAt(oldPos + 1) !== 0x5B/* [ */) {
       return false;
     }
 
@@ -99,6 +99,7 @@ function videoEmbed(md, options) {
       token = theState.push('video', '');
       token.videoID = videoID;
       token.service = service;
+      token.url = match[2];
       token.level = theState.level;
     }
 
@@ -109,10 +110,61 @@ function videoEmbed(md, options) {
   return videoReturn;
 }
 
-function videoUrl(service, videoID, options) {
+function extractVideoParameters(url) {
+  const parameterMap = new Map();
+  const params = url.replace(/&amp;/gi, '&').split(/[#?&]/);
+
+  if (params.length > 1) {
+    for (let i = 1; i < params.length; i += 1) {
+      const keyValue = params[i].split('=');
+      if (keyValue.length > 1) parameterMap.set(keyValue[0], keyValue[1]);
+    }
+  }
+
+  return parameterMap;
+}
+
+function videoUrl(service, videoID, url, options) {
   switch (service) {
-    case 'youtube':
-      return 'https://www.youtube.com/embed/' + videoID;
+    case 'youtube': {
+      const parameters = extractVideoParameters(url);
+      if (options.youtube.parameters) {
+        Object.keys(options.youtube.parameters).forEach((key) => {
+          parameters.set(key, options.youtube.parameters[key]);
+        });
+      }
+
+      // Start time parameter can have the format t=0m10s or t=<time_in_seconds> in share URLs,
+      // but in embed URLs the parameter must be called 'start' and time must be in seconds
+      const timeParameter = parameters.get('t');
+      if (timeParameter !== undefined) {
+        let startTime = 0;
+        const timeParts = timeParameter.match(/[0-9]+/g);
+        let j = 0;
+
+        while (timeParts.length > 0) {
+          /* eslint-disable no-restricted-properties */
+          startTime += Number(timeParts.pop()) * Math.pow(60, j);
+          /* eslint-enable no-restricted-properties */
+          j += 1;
+        }
+        parameters.set('start', startTime);
+        parameters.delete('t');
+      }
+
+      parameters.delete('v');
+      parameters.delete('feature');
+      parameters.delete('origin');
+
+      const parameterArray = Array.from(parameters, p => p.join('='));
+      const parameterPos = videoID.indexOf('?');
+
+      let finalUrl = 'https://www.youtube';
+      if (options.youtube.nocookie || url.indexOf('youtube-nocookie.com') > -1) finalUrl += '-nocookie';
+      finalUrl += '.com/embed/' + (parameterPos > -1 ? videoID.substr(0, parameterPos) : videoID);
+      if (parameterArray.length > 0) finalUrl += '?' + parameterArray.join('&');
+      return finalUrl;
+    }
     case 'vimeo':
       return 'https://player.vimeo.com/video/' + videoID;
     case 'vine':
@@ -154,7 +206,7 @@ function tokenizeVideo(md, options) {
       '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item ' +
       service + '-player" type="text/html" width="' + (options[service].width) +
       '" height="' + (options[service].height) +
-      '" src="' + options.url(service, videoID, options) +
+      '" src="' + options.url(service, videoID, tokens[idx].url, options) +
       '" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>';
   }
 
@@ -163,7 +215,7 @@ function tokenizeVideo(md, options) {
 
 const defaults = {
   url: videoUrl,
-  youtube: { width: 640, height: 390 },
+  youtube: { width: 640, height: 390, nocookie: false },
   vimeo: { width: 500, height: 281 },
   vine: { width: 600, height: 600, embed: 'simple' },
   prezi: { width: 550, height: 400 },
