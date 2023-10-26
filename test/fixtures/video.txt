@@ -162,6 +162,11 @@ x
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item vimeo-player" type="text/html" width="500" height="281" src="https://player.vimeo.com/video/x" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
 .
 .
+@[vimeo](123)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item vimeo-player" type="text/html" width="500" height="281" src="https://player.vimeo.com/video/123" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
 @[]vimeo()
 .
 <p>@[]vimeo()</p>
@@ -181,10 +186,12 @@ x
 .
 <p>@[(vimeo]</p>
 .
+
+Include text after digits in videoID if only videoID is specified
 .
-@[toc]()
+@[vimeo](1x)
 .
-<p>@<a href="">toc</a></p>
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item vimeo-player" type="text/html" width="500" height="281" src="https://player.vimeo.com/video/1x" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
 .
 
 Coverage. Vimeo from URL
@@ -209,7 +216,17 @@ Coverage. Vimeo from URL
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item vimeo-player" type="text/html" width="500" height="281" src="https://player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
 .
 .
+@[vimeo](http://vimeo.com/channels/119932781)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item vimeo-player" type="text/html" width="500" height="281" src="https://player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
 @[vimeo](https://vimeo.com/groups/staffpicks/videos/119932781)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item vimeo-player" type="text/html" width="500" height="281" src="https://player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[vimeo](https://vimeo.com/groups//videos/119932781)
 .
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item vimeo-player" type="text/html" width="500" height="281" src="https://player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
 .
@@ -228,6 +245,54 @@ Coverage. Vimeo from URL
 .
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item vimeo-player" type="text/html" width="500" height="281" src="https://player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
 .
+.
+@[vimeo](https://player.vimeo.com/video/19706846)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item vimeo-player" type="text/html" width="500" height="281" src="https://player.vimeo.com/video/19706846" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[vimeo](https://vimeo.com/video/19706846)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item vimeo-player" type="text/html" width="500" height="281" src="https://player.vimeo.com/video/19706846" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[vimeo](//vimeo.com/119932781)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item vimeo-player" type="text/html" width="500" height="281" src="https://player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[vimeo](http://vimeo.com/119932781)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item vimeo-player" type="text/html" width="500" height="281" src="https://player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+
+Ignore text after digits in videoID if URL is specified
+.
+@[vimeo](http://vimeo.com/119932781x)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item vimeo-player" type="text/html" width="500" height="281" src="https://player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+
+Ignore scheme
+.
+@[vimeo](ftp://vimeo.com/119932781)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item vimeo-player" type="text/html" width="500" height="281" src="https://player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[vimeo](anything://vimeo.com/119932781)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item vimeo-player" type="text/html" width="500" height="281" src="https://player.vimeo.com/video/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+
+Include full URL as videoID if it cannot be parsed
+.
+@[vimeo](http://unrecognized.vimeo.com/119932781)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item vimeo-player" type="text/html" width="500" height="281" src="https://player.vimeo.com/video/http://unrecognized.vimeo.com/119932781" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+
+Coverage. Vine
 .
 @[vine](https://vine.co/v/MhQ2lvg29Un/embed)
 .
@@ -315,11 +380,6 @@ x
 @[(prezi]
 .
 <p>@[(prezi]</p>
-.
-.
-@[toc]()
-.
-<p>@<a href="">toc</a></p>
 .
 
 Coverage. Prezi from URL
