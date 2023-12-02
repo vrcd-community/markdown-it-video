@@ -422,6 +422,383 @@ Coverage. Line Breaks
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item vine-player" type="text/html" width="600" height="600" src="https://vine.co/v/00000000000/embed/simple" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
 .
 
+Coverage. Video File from Url
+.
+@[video](https://locahost:8080/test.mp4)
+.
+<p><div class="video-file-player"><video src="https://locahost:8080/test.mp4"></video></div></p>
+.
+.
+@[video](x) a
+.
+<p><div class="video-file-player"><video src="x"></video></div>a</p>
+.
+.
+@[video](x)
+a
+.
+<p><div class="video-file-player"><video src="x"></video></div>a</p>
+.
+.
+a @[video](x)
+.
+<p>a <div class="video-file-player"><video src="x"></video></div></p>
+.
+.
+@[video]( x)
+.
+<p><div class="video-file-player"><video src="x"></video></div></p>
+.
+.
+@[video]( x )
+.
+<p><div class="video-file-player"><video src="x"></video></div></p>
+.
+.
+@[video](
+x )
+.
+<p><div class="video-file-player"><video src="x"></video></div></p>
+.
+.
+@[video](
+x
+ )
+.
+<p><div class="video-file-player"><video src="x"></video></div></p>
+.
+.
+@[]video()
+.
+<p>@[]video()</p>
+.
+.
+@[video]()
+.
+<p></p>
+.
+.
+@[videos](x)
+.
+<p>@<a href="x">videos</a></p>
+.
+.
+@[(video]
+.
+<p>@[(video]</p>
+.
+.
+@[toc]()
+.
+<p>@<a href="">toc</a></p>
+.
+
+Coverage. Audio File from Url
+.
+@[audio](https://locahost:8080/test.mp3)
+.
+<p><div class="audio-file-player"><audio src="https://locahost:8080/test.mp3"></audio></div></p>
+.
+.
+@[audio](x) a
+.
+<p><div class="audio-file-player"><audio src="x"></audio></div>a</p>
+.
+.
+@[audio](x)
+a
+.
+<p><div class="audio-file-player"><audio src="x"></audio></div>a</p>
+.
+.
+a @[audio](x)
+.
+<p>a <div class="audio-file-player"><audio src="x"></audio></div></p>
+.
+.
+@[audio]( x)
+.
+<p><div class="audio-file-player"><audio src="x"></audio></div></p>
+.
+.
+@[audio]( x )
+.
+<p><div class="audio-file-player"><audio src="x"></audio></div></p>
+.
+.
+@[audio](
+x )
+.
+<p><div class="audio-file-player"><audio src="x"></audio></div></p>
+.
+.
+@[audio](
+x
+ )
+.
+<p><div class="audio-file-player"><audio src="x"></audio></div></p>
+.
+.
+@[]audio()
+.
+<p>@[]audio()</p>
+.
+.
+@[audio]()
+.
+<p></p>
+.
+.
+@[audios](x)
+.
+<p>@<a href="x">audios</a></p>
+.
+.
+@[(audio]
+.
+<p>@[(audio]</p>
+.
+.
+@[toc]()
+.
+<p>@<a href="">toc</a></p>
+.
+
+Coverage. BiliBili from BVID
+.
+@[bilibili](BV1aj411i7oJ)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](Bv1aj411i7oJ)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=Bv1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](bV1aj411i7oJ)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=bV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](bv1aj411i7oJ)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=bv1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](BV1aj411i7oJ) a
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>a</p>
+.
+.
+@[bilibili](BV1aj411i7oJ)
+a
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>a</p>
+.
+.
+a @[bilibili](BV1aj411i7oJ)
+.
+<p>a <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili]( BV1aj411i7oJ)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili]( BV1aj411i7oJ )
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](
+BV1aj411i7oJ )
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](
+BV1aj411i7oJ
+ )
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[]bilibili()
+.
+<p>@[]bilibili()</p>
+.
+.
+@[bilibili]()
+.
+<p></p>
+.
+.
+@[bilibli](x)
+.
+<p>@<a href="x">bilibli</a></p>
+.
+.
+@[(bilibili]
+.
+<p>@[(bilibili]</p>
+.
+.
+@[toc]()
+.
+<p>@<a href="">toc</a></p>
+.
+
+Coverage. BiliBili from AVID
+.
+@[bilibili](av450071942)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](Av450071942)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=Av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](aV450071942)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=aV450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](AV450071942)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=AV450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](av450071942) a
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>a</p>
+.
+.
+@[bilibili](av450071942)
+a
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>a</p>
+.
+.
+a @[bilibili](av450071942)
+.
+<p>a <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili]( av450071942)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili]( av450071942 )
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](
+av450071942 )
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](
+av450071942
+ )
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[]bilibili()
+.
+<p>@[]bilibili()</p>
+.
+.
+@[bilibili]()
+.
+<p></p>
+.
+.
+@[bilibli](x)
+.
+<p>@<a href="x">bilibli</a></p>
+.
+.
+@[(bilibili]
+.
+<p>@[(bilibili]</p>
+.
+.
+@[toc]()
+.
+<p>@<a href="">toc</a></p>
+.
+
+Coverage. Youtube from URL
+.
+@[youtube]( //www.youtube.com/embed/dQw4w9WgXcQ )
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item youtube-player" type="text/html" width="640" height="390" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[youtube]( //www.youtube.com/watch?v=0zM3nApSvMg&feature=feedrec_grec_index
+ )
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item youtube-player" type="text/html" width="640" height="390" src="https://www.youtube.com/embed/0zM3nApSvMg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[youtube](//www.youtube.com/user/IngridMichaelsonVEVO#p/a/u/1/QdK8U-VIH_o)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item youtube-player" type="text/html" width="640" height="390" src="https://www.youtube.com/embed/QdK8U-VIH_o" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[youtube](//www.youtube.com/v/0zM3nApSvMg?fs=1&amp;hl=en_US&amp;rel=0)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item youtube-player" type="text/html" width="640" height="390" src="https://www.youtube.com/embed/0zM3nApSvMg?fs=1&hl=en_US&rel=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[youtube](//www.youtube.com/watch?v=0zM3nApSvMg#t=0m10s)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item youtube-player" type="text/html" width="640" height="390" src="https://www.youtube.com/embed/0zM3nApSvMg?start=10" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[youtube](//www.youtube.com/watch?v=0zM3nApSvMg#t=10)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item youtube-player" type="text/html" width="640" height="390" src="https://www.youtube.com/embed/0zM3nApSvMg?start=10" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[youtube](//www.youtube.com/embed/0zM3nApSvMg?rel=0)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item youtube-player" type="text/html" width="640" height="390" src="https://www.youtube.com/embed/0zM3nApSvMg?rel=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[youtube](//www.youtube-nocookie.com/embed/0zM3nApSvMg?rel=0)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item youtube-player" type="text/html" width="640" height="390" src="https://www.youtube-nocookie.com/embed/0zM3nApSvMg?rel=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[youtube](//www.youtube.com/watch?v=0zM3nApSvMg)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item youtube-player" type="text/html" width="640" height="390" src="https://www.youtube.com/embed/0zM3nApSvMg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[youtube](http://youtu.be/0zM3nApSvMg)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item youtube-player" type="text/html" width="640" height="390" src="https://www.youtube.com/embed/0zM3nApSvMg" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[youtube](https://www.youtube.com/embed/DBXH9jJRaDk?autoplay=0&fs=0&iv_load_policy=3&showinfo=1&rel=0&cc_load_policy=0&start=0&end=5&origin=https://example.com)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item youtube-player" type="text/html" width="640" height="390" src="https://www.youtube.com/embed/DBXH9jJRaDk?autoplay=0&fs=0&iv_load_policy=3&showinfo=1&rel=0&cc_load_policy=0&start=0&end=5" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[youtube](KMU0tzLwhbE?rel=0)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item youtube-player" type="text/html" width="640" height="390" src="https://www.youtube.com/embed/KMU0tzLwhbE?rel=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+
 Coverage. Bug with formatted markdown after embed
 .
 @[youtube](dQw4w9WgXcQ)

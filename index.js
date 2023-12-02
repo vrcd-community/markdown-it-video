@@ -3,6 +3,9 @@
 // Process @[vine](vineVideoID)
 // Process @[prezi](preziID)
 // Process @[osf](guid)
+// Process @[bilibili](bvid/avid)
+// Process @[video](link to media file)
+// Process @[audio](link to media file)
 
 const ytRegex = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
 function youtubeParser(url) {
@@ -34,6 +37,12 @@ function preziParser(url) {
 const mfrRegex = /^http(?:s?):\/\/(?:www\.)?mfr\.osf\.io\/render\?url=http(?:s?):\/\/osf\.io\/([a-zA-Z0-9]{1,5})\/\?action=download/;
 function mfrParser(url) {
   const match = url.match(mfrRegex);
+  return match ? match[1] : url;
+}
+
+const bilibiliRegex = /^.*(?:(?:www.bilibili.com\/video\/)|(?:www.bilibili.com\/)|(?:player.bilibili.com\/player.html\?(?:(?:bvid=)|(?:avid=))))([\w\d]+)/;
+function bilibiliParser(url) {
+  const match = url.match(bilibiliRegex);
   return match ? match[1] : url;
 }
 
@@ -74,6 +83,10 @@ function videoEmbed(md, options) {
       videoID = preziParser(videoID);
     } else if (serviceLower === 'osf') {
       videoID = mfrParser(videoID);
+    } else if (serviceLower === 'bilibili') {
+      videoID = bilibiliParser(videoID);
+    } else if (serviceLower === 'audio' || serviceLower === 'video') {
+      // nothing to do
     } else if (!options[serviceLower]) {
       return false;
     }
@@ -176,6 +189,12 @@ function videoUrl(service, videoID, url, options) {
         'landing_sign=1kD6c0N6aYpMUS0wxnQjxzSqZlEB8qNFdxtdjYhwSuI';
     case 'osf':
       return 'https://mfr.osf.io/render?url=https://osf.io/' + videoID + '/?action=download';
+    case 'bilibili':
+      return '//player.bilibili.com/player.html?' + (videoID.toLowerCase().startsWith('bv') ? 'bvid=' : 'avid=') + videoID;
+    case 'video':
+      return videoID;
+    case 'audio':
+      return videoID;
     default:
       return service;
   }
@@ -187,6 +206,14 @@ function tokenizeVideo(md, options) {
     const service = md.utils.escapeHtml(tokens[idx].service).toLowerCase();
     var checkUrl = /http(?:s?):\/\/(?:www\.)?[a-zA-Z0-9-:.]{1,}\/render(?:\/)?[a-zA-Z0-9.&;?=:%]{1,}url=http(?:s?):\/\/[a-zA-Z0-9 -:.]{1,}\/[a-zA-Z0-9]{1,5}\/\?[a-zA-Z0-9.=:%]{1,}/;
     var num;
+
+    if (service === 'video' && videoID) {
+      return '<div class="video-file-player"><video src="' + videoID + '"></video></div>';
+    }
+
+    if (service === 'audio' && videoID) {
+      return '<div class="audio-file-player"><audio src="' + videoID + '"></audio></div>';
+    }
 
     if (service === 'osf' && videoID) {
       num = Math.random() * 0x10000;
@@ -220,6 +247,7 @@ const defaults = {
   vine: { width: 600, height: 600, embed: 'simple' },
   prezi: { width: 550, height: 400 },
   osf: { width: '100%', height: '100%' },
+  bilibili: { width: 640, height: 390 },
 };
 
 module.exports = function videoPlugin(md, options) {
