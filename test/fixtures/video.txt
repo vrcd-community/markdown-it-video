@@ -736,6 +736,198 @@ av450071942
 <p>@<a href="">toc</a></p>
 .
 
+Coverage. BiliBili from Url (BVID)
+.
+@[bilibili](https://www.bilibili.com/video/BV1aj411i7oJ)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](https://www.bilibili.com/video/Bv1aj411i7oJ)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=Bv1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](https://www.bilibili.com/video/bV1aj411i7oJ)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=bV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](https://www.bilibili.com/video/bv1aj411i7oJ)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=bv1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](https://www.bilibili.com/BV1aj411i7oJ)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](//player.bilibili.com/player.html?bvid=BV1aj411i7oJ)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](https://www.bilibili.com/video/BV1aj411i7oJ) a
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>a</p>
+.
+.
+@[bilibili](https://www.bilibili.com/video/BV1aj411i7oJ)
+a
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>a</p>
+.
+.
+a @[bilibili](https://www.bilibili.com/video/BV1aj411i7oJ)
+.
+<p>a <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili]( https://www.bilibili.com/video/BV1aj411i7oJ)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili]( https://www.bilibili.com/video/BV1aj411i7oJ )
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](
+https://www.bilibili.com/video/BV1aj411i7oJ )
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](
+https://www.bilibili.com/video/BV1aj411i7oJ
+ )
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[]bilibili()
+.
+<p>@[]bilibili()</p>
+.
+.
+@[bilibili]()
+.
+<p></p>
+.
+.
+@[bilibli](x)
+.
+<p>@<a href="x">bilibli</a></p>
+.
+.
+@[(bilibili]
+.
+<p>@[(bilibili]</p>
+.
+.
+@[toc]()
+.
+<p>@<a href="">toc</a></p>
+.
+
+Coverage. BiliBili from Url (AVID)
+.
+@[bilibili](https://www.bilibili.com/video/av450071942)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](https://www.bilibili.com/video/Av450071942)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=Av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](https://www.bilibili.com/video/aV450071942)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=aV450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](https://www.bilibili.com/video/AV450071942)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=AV450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](https://www.bilibili.com/av450071942)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](//player.bilibili.com/player.html?avid=av450071942)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](https://www.bilibili.com/video/av450071942) a
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>a</p>
+.
+.
+@[bilibili](https://www.bilibili.com/video/av450071942)
+a
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>a</p>
+.
+.
+a @[bilibili](https://www.bilibili.com/video/av450071942)
+.
+<p>a <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili]( https://www.bilibili.com/video/av450071942)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili]( https://www.bilibili.com/video/av450071942 )
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](
+https://www.bilibili.com/video/av450071942 )
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](
+https://www.bilibili.com/video/av450071942
+ )
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[]bilibili()
+.
+<p>@[]bilibili()</p>
+.
+.
+@[bilibili]()
+.
+<p></p>
+.
+.
+@[bilibli](x)
+.
+<p>@<a href="x">bilibli</a></p>
+.
+.
+@[(bilibili]
+.
+<p>@[(bilibili]</p>
+.
+.
+@[toc]()
+.
+<p>@<a href="">toc</a></p>
+.
+
 Coverage. Youtube from URL
 .
 @[youtube]( //www.youtube.com/embed/dQw4w9WgXcQ )

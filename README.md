@@ -13,7 +13,7 @@
     html: true,
     linkify: true,
     typography: true
-  }).use(require('markdown-it-video'), // <-- this use(package_name) is required 
+  }).use(require('markdown-it-video'), // <-- this use(package_name) is required
   {
     youtube: { width: 640, height: 390 },
     vimeo: { width: 500, height: 281 },
@@ -102,7 +102,7 @@ Alternately, you could use the url, or even the whole embed tag instead of just 
 @[prezi](1kkxdtlp4241)
 ```
 
-is interpreted as 
+is interpreted as
 
 ```html
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" id="preziplayer" type="text/html" width="550" height="400" src="https://prezi.com/embed/1kkxdtlp4241/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5N1lQVHkxSHFxazZ0UUNCRHloSXZROHh3PT0&amp;landing_sign=1kD6c0N6aYpMUS0wxnQjxzSqZlEB8qNFdxtdjYhwSuI" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
@@ -135,6 +135,48 @@ Alternately, you could use the url.
 
 ```md
 @[osf](https://mfr.osf.io/render?url=https://osf.io/kuvg9/?action=download)
+```
+
+#### BiliBili (哔哩哔哩)
+
+```md
+@[bilibili](BV1aj411i7oJ)
+```
+
+is interpreted as
+
+```html
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+```
+
+Alternately, you could use AVID or the url.
+
+```md
+@[bilibili](av450071942)
+@[bilibili](https://www.bilibili.com/video/BV1aj411i7oJ)
+@[bilibili](https://www.bilibili.com/BV1aj411i7oJ)
+@[bilibili](//player.bilibili.com/player.html?bvid=BV1aj411i7oJ)
+@[bilibili](https://www.bilibili.com/video/av450071942)
+@[bilibili](https://www.bilibili.com/av450071942)
+@[bilibili](//player.bilibili.com/player.html?avid=av450071942)
+```
+
+#### File (Video/Audio)
+
+```md
+@[video](/test.mp4)
+```
+
+is interpreted as
+
+```html
+<p><div class="video-file-player"><video src="/test.mp4"></video></div></p>
+```
+
+Alternately, you could use the audio.
+
+```md
+@[audio](/test.mp3)
 ```
 
 ## Options
