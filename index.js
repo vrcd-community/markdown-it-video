@@ -227,11 +227,11 @@ function tokenizeVideo(md, options) {
     var num;
 
     if (service === 'video' && videoID) {
-      return '<div class="video-file-player"><video src="' + videoID + '"></video></div>';
+      return '<div class="video-file-player"><video controls src="' + videoID + '"></video></div>';
     }
 
     if (service === 'audio' && videoID) {
-      return '<div class="audio-file-player"><audio src="' + videoID + '"></audio></div>';
+      return '<div class="audio-file-player"><audio controls src="' + videoID + '"></audio></div>';
     }
 
     if (service === 'osf' && videoID) {
@@ -261,7 +261,7 @@ function tokenizeVideo(md, options) {
 
 const defaults = {
   url: videoUrl,
-  youtube: { width: 640, height: 390, nocookie: false },
+  youtube: { width: 640, height: 390, nocookie: true },
   vimeo: { width: 500, height: 281 },
   vine: { width: 600, height: 600, embed: 'simple' },
   prezi: { width: 550, height: 400 },
