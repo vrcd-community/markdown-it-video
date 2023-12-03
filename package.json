@@ -1,5 +1,5 @@
 {
-  "name": "@centerforopenscience/markdown-it-video",
+  "name": "@vrcd-community/markdown-it-video",
   "version": "1.0.0",
   "description": "Markdown-it plugin to embed a hosted videos",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brianjgeiger/markdown-it-video"
+    "url": "https://github.com/vrcd-community/markdown-it-video"
   },
-  "author": "brianjgeiger",
+  "author": "brianjgeiger & VRCD",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brianjgeiger/markdown-it-video/issues"
+    "url": "https://github.com/vrcd-community/markdown-it-video/issues"
   },
-  "homepage": "https://github.com/brianjgeiger/markdown-it-video",
+  "homepage": "https://github.com/vrcd-community/markdown-it-video",
   "keywords": [
     "markdown-it",
     "markdown-it-plugin"
