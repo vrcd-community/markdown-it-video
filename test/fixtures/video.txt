@@ -426,46 +426,46 @@ Coverage. Video File from Url
 .
 @[video](https://locahost:8080/test.mp4)
 .
-<p><div class="video-file-player"><video src="https://locahost:8080/test.mp4"></video></div></p>
+<p><div class="video-file-player"><video controls src="https://locahost:8080/test.mp4"></video></div></p>
 .
 .
 @[video](x) a
 .
-<p><div class="video-file-player"><video src="x"></video></div>a</p>
+<p><div class="video-file-player"><video controls src="x"></video></div>a</p>
 .
 .
 @[video](x)
 a
 .
-<p><div class="video-file-player"><video src="x"></video></div>a</p>
+<p><div class="video-file-player"><video controls src="x"></video></div>a</p>
 .
 .
 a @[video](x)
 .
-<p>a <div class="video-file-player"><video src="x"></video></div></p>
+<p>a <div class="video-file-player"><video controls src="x"></video></div></p>
 .
 .
 @[video]( x)
 .
-<p><div class="video-file-player"><video src="x"></video></div></p>
+<p><div class="video-file-player"><video controls src="x"></video></div></p>
 .
 .
 @[video]( x )
 .
-<p><div class="video-file-player"><video src="x"></video></div></p>
+<p><div class="video-file-player"><video controls src="x"></video></div></p>
 .
 .
 @[video](
 x )
 .
-<p><div class="video-file-player"><video src="x"></video></div></p>
+<p><div class="video-file-player"><video controls src="x"></video></div></p>
 .
 .
 @[video](
 x
  )
 .
-<p><div class="video-file-player"><video src="x"></video></div></p>
+<p><div class="video-file-player"><video controls src="x"></video></div></p>
 .
 .
 @[]video()
@@ -497,46 +497,46 @@ Coverage. Audio File from Url
 .
 @[audio](https://locahost:8080/test.mp3)
 .
-<p><div class="audio-file-player"><audio src="https://locahost:8080/test.mp3"></audio></div></p>
+<p><div class="audio-file-player"><audio controls src="https://locahost:8080/test.mp3"></audio></div></p>
 .
 .
 @[audio](x) a
 .
-<p><div class="audio-file-player"><audio src="x"></audio></div>a</p>
+<p><div class="audio-file-player"><audio controls src="x"></audio></div>a</p>
 .
 .
 @[audio](x)
 a
 .
-<p><div class="audio-file-player"><audio src="x"></audio></div>a</p>
+<p><div class="audio-file-player"><audio controls src="x"></audio></div>a</p>
 .
 .
 a @[audio](x)
 .
-<p>a <div class="audio-file-player"><audio src="x"></audio></div></p>
+<p>a <div class="audio-file-player"><audio controls src="x"></audio></div></p>
 .
 .
 @[audio]( x)
 .
-<p><div class="audio-file-player"><audio src="x"></audio></div></p>
+<p><div class="audio-file-player"><audio controls src="x"></audio></div></p>
 .
 .
 @[audio]( x )
 .
-<p><div class="audio-file-player"><audio src="x"></audio></div></p>
+<p><div class="audio-file-player"><audio controls src="x"></audio></div></p>
 .
 .
 @[audio](
 x )
 .
-<p><div class="audio-file-player"><audio src="x"></audio></div></p>
+<p><div class="audio-file-player"><audio controls src="x"></audio></div></p>
 .
 .
 @[audio](
 x
  )
 .
-<p><div class="audio-file-player"><audio src="x"></audio></div></p>
+<p><div class="audio-file-player"><audio controls src="x"></audio></div></p>
 .
 .
 @[]audio()

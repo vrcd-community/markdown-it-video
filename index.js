@@ -261,7 +261,7 @@ function tokenizeVideo(md, options) {
 
 const defaults = {
   url: videoUrl,
-  youtube: { width: 640, height: 390, nocookie: true },
+  youtube: { width: 640, height: 390, nocookie: false },
   vimeo: { width: 500, height: 281 },
   vine: { width: 600, height: 600, embed: 'simple' },
   prezi: { width: 550, height: 400 },
