@@ -586,6 +586,11 @@ Coverage. BiliBili from BVID
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=bv1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
 .
 .
+@[bilibili](BV1aj411i7oJ?t=3)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ&t=3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
 @[bilibili](BV1aj411i7oJ) a
 .
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>a</p>
@@ -670,6 +675,11 @@ Coverage. BiliBili from AVID
 @[bilibili](AV450071942)
 .
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=AV450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](av450071942?t=3)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942&t=3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
 .
 .
 @[bilibili](av450071942) a
@@ -758,6 +768,11 @@ Coverage. BiliBili from Url (BVID)
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=bv1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
 .
 .
+@[bilibili](https://www.bilibili.com/video/BV1aj411i7oJ?t=3)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ&t=3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
 @[bilibili](https://www.bilibili.com/BV1aj411i7oJ)
 .
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
@@ -766,6 +781,11 @@ Coverage. BiliBili from Url (BVID)
 @[bilibili](//player.bilibili.com/player.html?bvid=BV1aj411i7oJ)
 .
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](//player.bilibili.com/player.html?bvid=BV1aj411i7oJ&t=3)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?bvid=BV1aj411i7oJ&t=3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
 .
 .
 @[bilibili](https://www.bilibili.com/video/BV1aj411i7oJ) a
@@ -854,6 +874,11 @@ Coverage. BiliBili from Url (AVID)
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=AV450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
 .
 .
+@[bilibili](https://www.bilibili.com/video/av450071942?t=3)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942&t=3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
 @[bilibili](https://www.bilibili.com/av450071942)
 .
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
@@ -862,6 +887,11 @@ Coverage. BiliBili from Url (AVID)
 @[bilibili](//player.bilibili.com/player.html?avid=av450071942)
 .
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
+.
+.
+@[bilibili](//player.bilibili.com/player.html?avid=av450071942&t=3)
+.
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item bilibili-player" type="text/html" width="640" height="390" src="//player.bilibili.com/player.html?avid=av450071942&t=3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
 .
 .
 @[bilibili](https://www.bilibili.com/video/av450071942) a

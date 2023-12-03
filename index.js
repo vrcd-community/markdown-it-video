@@ -40,10 +40,17 @@ function mfrParser(url) {
   return match ? match[1] : url;
 }
 
-const bilibiliRegex = /^.*(?:(?:www.bilibili.com\/video\/)|(?:www.bilibili.com\/)|(?:player.bilibili.com\/player.html\?(?:(?:bvid=)|(?:avid=))))([\w\d]+)/;
+const bilibiliRegex = /^.*(?:(?:www.bilibili.com\/video\/)|(?:www.bilibili.com\/)|(?:player.bilibili.com\/player.html[.+]*(?:(?:[?&]bvid=)|(?:[?&]avid=))))([\w\d]+)/;
+const bilibiliIdRegex = /[\w\d]+/;
 function bilibiliParser(url) {
   const match = url.match(bilibiliRegex);
-  return match ? match[1] : url;
+  const idMatch = url.match(bilibiliIdRegex);
+
+  if (match) {
+    return match[1];
+  }
+
+  return idMatch ? idMatch[0] : url;
 }
 
 
@@ -189,8 +196,20 @@ function videoUrl(service, videoID, url, options) {
         'landing_sign=1kD6c0N6aYpMUS0wxnQjxzSqZlEB8qNFdxtdjYhwSuI';
     case 'osf':
       return 'https://mfr.osf.io/render?url=https://osf.io/' + videoID + '/?action=download';
-    case 'bilibili':
-      return '//player.bilibili.com/player.html?' + (videoID.toLowerCase().startsWith('bv') ? 'bvid=' : 'avid=') + videoID;
+    case 'bilibili': {
+      const parameters = extractVideoParameters(url);
+      if (options.bilibili.parameters) {
+        Object.keys(options.bilibili.parameters).forEach((key) => {
+          parameters.set(key, options.bilibili.parameters[key]);
+        });
+      }
+
+      parameters.delete('bvid');
+      parameters.delete('avid');
+
+      const parameterArray = Array.from(parameters, p => p.join('='));
+      return '//player.bilibili.com/player.html?' + (videoID.toLowerCase().startsWith('bv') ? 'bvid=' : 'avid=') + videoID + (parameterArray.length !== 0 ? '&' : '') + parameterArray.join('&');
+    }
     case 'video':
       return videoID;
     case 'audio':
